@@ -18,9 +18,7 @@
 - [JSON](#json)  
   - [Parse](#parse)  
   - [Misc.](#misc)  
-- [Markdown](#markdown)  
-  - [Links](#links)  
-
+  
 ---
 
 # JS
@@ -50,7 +48,7 @@ isFinite(NaN); // false
 `false`, `0`, empty strings (`""`), `NaN`, `null`, and `undefined` all become false. Anything else is `true`.
 
 #### Variables
-> `let` is a block-level variable.
+> `let` is a block-level variable.  
 > `const` is a block-level constant that raises an error on modification.  
 > `var` is a function-level variable.
 
@@ -135,11 +133,3 @@ Sort of like exposing an API for inheritance.
 
 #### Misc.
    - Use double quotes `""`, not singles.
-
----
-
-# Markdown
-
-#### Links
-`Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.`
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
